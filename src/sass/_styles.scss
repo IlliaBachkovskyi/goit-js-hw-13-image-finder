@@ -13,8 +13,6 @@ body {
   background-color: rgb(220, 185, 248);
 }
 
-
-
 .gallery {
   list-style: none;
   display: flex;
@@ -24,8 +22,6 @@ body {
 
 .photo-card {
   margin-right: 10px;
-  // width: 450px;
-  // height: 400px;
 }
 
 .stats {
@@ -52,9 +48,9 @@ body {
 
 .btn {
   width: 150px;
-  height: 42px;
-  padding-left: 15px;
-  border-radius: 42px;
+  height: 45px;
+  padding-left: 25px;
+  border-radius: 10px;
   border: 2px solid rgb(24, 27, 221);
   background: #808080;
   outline: none;
@@ -67,18 +63,18 @@ body {
 
 input {
   width: 250px;
-  height: 42px;
-  padding-left: 15px;
-  border-radius: 42px;
+  height: 45px;
+  padding-left: 25px;
+  border-radius: 10px;
   border: 2px solid rgb(24, 27, 221);
   background: #808080;
   outline: none;
   position: relative;
-  transition: 0.3s linear;
+  transition: 0.2s linear;
 }
 
 input:focus {
-  width: 300px;
+  width: 260px;
 }
 
 input::placeholder {
