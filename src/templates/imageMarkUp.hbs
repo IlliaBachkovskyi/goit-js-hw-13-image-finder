@@ -1,0 +1,32 @@
+{{#each this}}
+<li class="photo-card">
+    <img class="photo__img" src="{{src.medium}}" alt="" width="320" />
+
+    <ul class="stats">
+        <li>
+            <p class="stats-item">
+                <i class="material-icons">thumb_up</i>
+                3546
+            </p>
+        </li>
+        <li>
+            <p class="stats-item">
+                <i class="material-icons">visibility</i>
+                748453
+            </p>
+        </li>
+        <li>
+            <p class="stats-item">
+                <i class="material-icons">comment</i>
+                526
+            </p>
+        </li>
+        <li>
+            <p class="stats-item">
+                <i class="material-icons">cloud_download</i>
+                {{photographer_id}}
+            </p>
+        </li>
+    </ul>
+</li>
+{{/each}}
